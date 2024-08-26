@@ -1,0 +1,95 @@
+@media all and (max-width: 1000px) {
+  .slide-show:hover {
+    background-size: cover;
+  }
+  .slide-show h1 {
+    font-size: 32px;
+  }
+  .slide-show p {
+    font-size: 15px;
+  }
+  .heading h3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 34px;
+  }
+  .about-title {
+    font-size: 19px;
+  }
+  .about-left p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .about-right p {
+    font-size: 15px;
+  }
+  .title-client {
+    font-size: 34px;
+  }
+  .client {
+    width: 40%;
+    text-align: center;
+  }
+
+  .service {
+    width: 40%;
+    padding-bottom: 5%;
+  }
+  .image {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+@media all and (max-width: 670px) {
+  .slide-show {
+    text-align: left;
+  }
+  .btn {
+    width: 100%;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .heading h3 {
+    font-size: 29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .about-title {
+    font-size: 18px;
+    /* text-align: center; */
+  }
+  .about-left p {
+    /* text-align: center; */
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 25px;
+  }
+  .about-right p {
+    font-size: 13px;
+  }
+  .title-client {
+    font-size: 29px;
+  }
+  .client {
+    width: 100%;
+  }
+  .client-icon img {
+    max-width: 200px;
+    margin-left: 1%;
+  }
+
+  .service {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .image {
+    width: 100%;
+  }
+}
